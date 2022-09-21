@@ -1,1 +1,12 @@
 print("******** Programme principal ********")
+from functions import convert
+convert(8,80)
+convert(16,20)
+convert(8,1)
+convert(-5,-5)
+convert(-10,5)
+convert(-8,15)
+convert(100000000000000000000,-1111111111111111111111)
+convert(49466846448468498798464649849849849898498,0.89)
+convert(0.1,0.2)
+convert(468165400644044860468404804040,4008084464690404)
