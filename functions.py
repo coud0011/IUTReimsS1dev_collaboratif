@@ -80,4 +80,4 @@ def printTriangle(size: int) :
         print(Tri)
         Tri+="*"
         size=size-1
->>>>>>> f3aa3cb193813d8bfff744c8a8d3b9b60143f2d2
+
