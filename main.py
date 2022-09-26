@@ -28,8 +28,8 @@
 
 print("******** Programme principal ********")
 from functions import *
-printRectangle(9, 5)
 printTriangle(8)
+printRectangle(9, 5)
 convert(8,80)
 convert(16,20)
 convert(8,1)

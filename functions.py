@@ -58,3 +58,24 @@ def convert(n : int,b : int) -> str:
 
 
 convert(7,3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def printTriangle(size: int) :
+    Tri="*"
+    while size>=1 :
+        print(Tri)
+        Tri+="*"
+        size=size-1
