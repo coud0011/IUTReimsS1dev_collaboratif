@@ -1,4 +1,8 @@
-# Copyright 2021 TOM DARET et AXEL COUDROT
+<<<<<<< HEAD
+# Copyright 2021 TOM DARET
+=======
+# Copyright 2021 AXEL COUDROT
+>>>>>>> 2d58436c7f92f347993fb96d8f06df5d661cb37d
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -25,17 +29,40 @@
 # CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
+<<<<<<< HEAD
 
-print("******** Programme principal ********")
-from functions import *
-printRectangle(9, 5)
-convert(8,80)
-convert(16,20)
-convert(8,1)
-convert(-5,-5)
-convert(-10,5)
-convert(-8,15)
-convert(100000000000000000000,-1111111111111111111111)
-convert(49466846448468498798464649849849849898498,0.89)
-convert(0.1,0.2)
-convert(468165400644044860468404804040,4008084464690404)
+=======
+>>>>>>> 2d58436c7f92f347993fb96d8f06df5d661cb37d
+def convert(n : int,b : int) -> str:
+
+    reste=''
+    val=0
+
+
+
+    while n+b-1 >= b:
+        
+        val = ( n % b)
+
+        if val == 10:
+            reste+="A"
+        elif val == 11:
+            reste+="B"
+        elif val == 12:
+            reste+="C"
+        elif val == 13:
+            reste+="D"
+        elif val == 14:
+            reste+="E"
+        elif val == 15:
+            reste+= "F"
+        else:
+            reste+= str(val)
+
+        n= n//b
+
+
+    print (reste[::-1])
+
+
+convert(7,3)
