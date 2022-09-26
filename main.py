@@ -27,7 +27,7 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 print("******** Programme principal ********")
-from functions import convert
+from functions import *
 convert(8,80)
 convert(16,20)
 convert(8,1)
