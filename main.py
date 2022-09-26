@@ -29,6 +29,7 @@
 print("******** Programme principal ********")
 from functions import *
 printTriangle(8)
+printTriangleOutline(8)
 printRectangle(9, 5)
 convert(8,80)
 convert(16,20)
