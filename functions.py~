@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Copyright 2021 TOM DARET
-=======
-# Copyright 2021 AXEL COUDROT
->>>>>>> 2d58436c7f92f347993fb96d8f06df5d661cb37d
+# Copyright 2021 AXEL COUDROT et TOM DARET
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -29,10 +25,6 @@
 # CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 # ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
-<<<<<<< HEAD
-
-=======
->>>>>>> 2d58436c7f92f347993fb96d8f06df5d661cb37d
 def convert(n : int,b : int) -> str:
 
     reste=''
@@ -66,3 +58,26 @@ def convert(n : int,b : int) -> str:
 
 
 convert(7,3)
+
+def printRectangle(width: int, height: int) :
+    i=0
+    j=0
+    while i < height:
+        form=''
+        j=0
+        while j < width:
+            form+="*"
+            j+=1
+        print(form)
+        i+=1
+
+
+
+
+def printTriangle(size: int) :
+    Tri="*"
+    while size>=1 :
+        print(Tri)
+        Tri+="*"
+        size=size-1
+>>>>>>> f3aa3cb193813d8bfff744c8a8d3b9b60143f2d2
