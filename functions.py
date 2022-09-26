@@ -57,7 +57,7 @@ def convert(n : int,b : int) -> str:
     print (reste[::-1])
 
 
-convert(7,3)
+convert(200,16)
 
 def printRectangle(width: int, height: int) :
     i=0
@@ -80,4 +80,27 @@ def printTriangle(size: int) :
         print(Tri)
         Tri+="*"
         size=size-1
+
+
+def printRectangleOutline(width: int, height: int) :
+    i=0
+    j=0
+    while i < height:
+        form=""
+        j=0
+        if i >= 1 and i < height-1:
+                while j < width:
+                    if j >= 1 and j < width-1 :
+                        form+=" "
+                    else:
+                        form+="*"
+                    j+=1
+        else:
+            while j < width:
+                form+="*"
+                j+=1
+        print(form)
+        i+=1
+
+
 
