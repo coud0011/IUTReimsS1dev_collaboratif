@@ -71,3 +71,13 @@ def printRectangle(width: int, height: int) :
         print(form)
         i+=1
 
+
+
+
+def printTriangle(size: int) :
+    Tri="*"
+    while size>=1 :
+        print(Tri)
+        Tri+="*"
+        size=size-1
+>>>>>>> f3aa3cb193813d8bfff744c8a8d3b9b60143f2d2
