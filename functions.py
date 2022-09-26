@@ -58,3 +58,16 @@ def convert(n : int,b : int) -> str:
 
 
 convert(7,3)
+
+def printRectangle(width: int, height: int) :
+    i=0
+    j=0
+    while i < height:
+        form=''
+        j=0
+        while j < width:
+            form+="*"
+            j+=1
+        print(form)
+        i+=1
+
