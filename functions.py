@@ -103,4 +103,18 @@ def printRectangleOutline(width: int, height: int) :
         i+=1
 
 
+def printTriangleOutline(size: int) :
+    trio="*"
+    for i in range(size-1):
+        for j in range(size):
+            if j==0 or i - j == 0:
+                print("*", end="")
+            else:
+                print(end=" ")
+        print()
+        trio+="*"
+    print(trio)
+    
+
+
 
